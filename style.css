@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding:0;
+}
+.container{
+    background-image: url(./basketBallBackground.jpg);
+    background-size: cover;
+    text-align: center;
+    letter-spacing: 3px;
+    color: white;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-around;
+    width: 600px;
+    margin:200px auto;
+    padding: 30px;
+    text-shadow: 5px 5px 8px rgb(209, 209, 209);
+    background-color: rgb(45, 45, 111);
+
+}
+.score{
+    margin: -15px  auto 15px auto;
+    background-color: black;
+    font-size: 60px;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    text-align: center;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    text-shadow: none;
+}
+button{
+    background-color:rgba(161, 0, 0, 0.605);
+    color: rgb(215, 215, 215);
+    width:40px;
+    height:40px;
+    border:2px solid rgb(155, 152, 152);
+    border-radius: 5px;
+
+   
+}
+.newGame{
+    background-color: rgb(0, 0, 0);
+    height: 40px;
+    transform: translate(0px,200px);
+    border-radius: 10px;
+    width: 120px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 8px rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width : 500px){
+    .container{
+      width: 400px;    
+    }
+}
